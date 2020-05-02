@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 h2 {
     color: red;
     text-align: center;
@@ -5,6 +10,11 @@ h2 {
 
 body {
     background-color: lightyellow;
+}
+
+img {
+    display: block;
+    margin: 0 ;
 }
 
 .text {
@@ -32,3 +42,20 @@ body {
     border-width: 3px;
     border-style: solid;
 }
+
+.example {
+    display: flex;
+    background-color: #aeaeae;
+}
+
+.red {
+    background-color: red
+}
+
+/* 
+Виды элементов
+
+Блочные    display: block
+Строчные   display: inline
+Блочно-строчные  display: inline-block
+*/
